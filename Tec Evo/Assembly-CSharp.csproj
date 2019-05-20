@@ -55,6 +55,7 @@
      <Compile Include="Assets\Scripts\hideOnStart.cs" />
      <Compile Include="Assets\Scripts\MainNode.cs" />
      <Compile Include="Assets\Scripts\OnClickDrag.cs" />
+     <Compile Include="Assets\Scripts\Paralax.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2017.2.3f1/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
