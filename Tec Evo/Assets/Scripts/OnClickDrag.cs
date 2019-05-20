@@ -16,9 +16,6 @@ public class OnClickDrag : MonoBehaviour {
     {
         if (Input.GetMouseButtonDown(0) == false)
         {
-
-
-
             mouseDown = false;
             Destroy(GameObjSelf);
         }

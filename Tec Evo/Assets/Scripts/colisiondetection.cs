@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class colisiondetection : MonoBehaviour {
 
-    public GameObject playerMoved;
+    public GameObject GameOBJMoved;
     public GameObject Unlocks;
 
 
@@ -13,7 +13,7 @@ public class colisiondetection : MonoBehaviour {
 
 	void OnTriggerEnter2D(Collider2D other)
     {
-        cloneAdditon = playerMoved.name + "(Clone)";
+        cloneAdditon = GameOBJMoved.name + "(Clone)";
         if (other.name == cloneAdditon)
         {
             Debug.Log("over");

@@ -4,10 +4,10 @@ using UnityEngine;
 
 public class MainNode : MonoBehaviour {
 
-    public GameObject GameOBJ;
+    public GameObject GameOBJMoving;
 
 	private void OnMouseDown()
     {
-        Instantiate(GameOBJ);
+        Instantiate(GameOBJMoving);
     }
 }

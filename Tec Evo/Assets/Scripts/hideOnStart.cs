@@ -6,11 +6,10 @@ public class hideOnStart : MonoBehaviour {
 
     // Use this for initialization
 
-    public GameObject SELF;
+    public GameObject Self;
 
 	void Start () {
-        SELF.SetActive(false);
+        Self.SetActive(false);
 	}
 	
-
 }

@@ -20,8 +20,8 @@ GameObject:
   m_Component:
   - component: {fileID: 4807799752135764}
   - component: {fileID: 212758714197176870}
-  - component: {fileID: 61063777717900126}
   - component: {fileID: 114128658652418530}
+  - component: {fileID: 61063777717900126}
   - component: {fileID: 50278343796454448}
   m_Layer: 0
   m_Name: Silicon
