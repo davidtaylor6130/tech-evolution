@@ -51,7 +51,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\AchevementLogic.cs" />
      <Compile Include="Assets\Scripts\colisiondetection.cs" />
+     <Compile Include="Assets\Scripts\destroyAfterTime.cs" />
      <Compile Include="Assets\Scripts\hideOnStart.cs" />
      <Compile Include="Assets\Scripts\MainNode.cs" />
      <Compile Include="Assets\Scripts\OnClickDrag.cs" />

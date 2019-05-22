@@ -6,6 +6,7 @@ public class colisiondetection : MonoBehaviour {
 
     public GameObject GameOBJMoved;
     public GameObject Unlocks;
+    public GameObject Achevement;
 
 
     string cloneAdditon;
@@ -35,6 +36,10 @@ public class colisiondetection : MonoBehaviour {
     {
 		if (OverObject == true && Input.GetMouseButtonDown(0) == true)
         {
+            if (Unlocks.activeSelf == false)
+            {
+                Instantiate(Achevement);
+            }
             Debug.Log("clicked when over ");
             Unlocks.SetActive(true);
         }
