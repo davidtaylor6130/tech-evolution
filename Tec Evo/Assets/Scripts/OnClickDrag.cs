@@ -35,8 +35,4 @@ public class OnClickDrag : MonoBehaviour {
             transform.position = mObj;
         }
     }
-
-    void OnMouseDrag()
-    {
-    }
 }
