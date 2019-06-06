@@ -1,0 +1,184 @@
+fileFormatVersion: 2
+guid: 9b1a0c00a29cb2e47b5b4f7b79dfade7
+timeCreated: 1559413535
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: arm1bottom
+    100002: arm1top
+    100004: arm2bottom
+    100006: arm2top
+    100008: arm3bottom
+    100010: arm3top
+    100012: arm4bottom
+    100014: arm4top
+    100016: Armature
+    100018: bow_asset
+    100020: bowstratlower
+    100022: bowstratupper1
+    100024: bowstratupper2
+    100026: bowstratupper3
+    100028: handlebottom
+    100030: handletop
+    100032: IK_bottom2
+    100034: IK_lower1
+    100036: IK_lower2
+    100038: IK_top1
+    100040: IK_top2
+    100042: IK_top2_002
+    100044: IK_top2_003
+    100046: IK_upper1
+    100048: lower_limit1
+    100050: main
+    100052: string
+    100054: //RootNode
+    100056: toparmIK
+    100058: toparmIK_001
+    100060: Upper_limit1
+    400000: arm1bottom
+    400002: arm1top
+    400004: arm2bottom
+    400006: arm2top
+    400008: arm3bottom
+    400010: arm3top
+    400012: arm4bottom
+    400014: arm4top
+    400016: Armature
+    400018: bow_asset
+    400020: bowstratlower
+    400022: bowstratupper1
+    400024: bowstratupper2
+    400026: bowstratupper3
+    400028: handlebottom
+    400030: handletop
+    400032: IK_bottom2
+    400034: IK_lower1
+    400036: IK_lower2
+    400038: IK_top1
+    400040: IK_top2
+    400042: IK_top2_002
+    400044: IK_top2_003
+    400046: IK_upper1
+    400048: lower_limit1
+    400050: main
+    400052: string
+    400054: //RootNode
+    400056: toparmIK
+    400058: toparmIK_001
+    400060: Upper_limit1
+    4300000: bow_asset
+    7400000: Default Take
+    9500000: //RootNode
+    13700000: bow_asset
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: unnamed
+    second: {fileID: 2100000, guid: c0fcfc905054f8c41a47e41526e5bc72, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Default Take
+      takeName: Default Take
+      firstFrame: 0
+      lastFrame: 249
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: string
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
