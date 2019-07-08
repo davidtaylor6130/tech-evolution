@@ -4,32 +4,13 @@ using UnityEngine;
 
 public class MoveNodes : MonoBehaviour {
 
-    //Array to store all the node places on
-    GameObject[] array = new GameObject[7];
-
-    public GameObject Nodes; 
-    public GameObject NodesOne;
-    public GameObject NodesTwo;
-    public GameObject NodesThree;
-    public GameObject NodesFour;
-    public GameObject NodesFive;
-    public GameObject NodesSix;
+    public GameObject nodesMaster;
+    public Vector3 maxLeft;
+    public Vector3 maxRight;
     public float MoveLeftAndRight;
-    public int StartingPosition;
 
     bool HasBeenMoved;
     int ammountMoved = 0;
-	 
-    void Start()
-    {
-        array[0] = Nodes;
-        array[1] = NodesOne;
-        array[2] = NodesTwo;
-        array[3] = NodesThree;
-        array[4] = NodesFour;
-        array[5] = NodesFive;
-        array[6] = NodesSix;
-    }
 
     void OnMouseOver()
     {
@@ -39,7 +20,10 @@ public class MoveNodes : MonoBehaviour {
         {
             if (HasBeenMoved == false)
             {
-                Move();
+
+                if (MoveLeftAndRight < 0 && nodesMaster.transform.position != maxLeft ) { Move(); };
+                if (MoveLeftAndRight > 0 && nodesMaster.transform.position != maxRight ) { Move(); };
+
                 HasBeenMoved = true;
             }
         }
@@ -53,19 +37,9 @@ public class MoveNodes : MonoBehaviour {
 
     void Move()
     {
-        for (int i = 0; i < 6; i++)
+        for (int i = 0; i < 3; i++)
         {
-            Debug.Log(i);
-            if (array[i].transform.localPosition.x > 0)
-            {
-                ammountMoved++;
-            }
-            else if (array[i].transform.localPosition.x > 0)
-            {
-                ammountMoved--;
-            }
-
-            array[i].transform.localPosition += new Vector3(MoveLeftAndRight, 0, 0);
+                nodesMaster.transform.position += new Vector3(MoveLeftAndRight, 0, 0);
         }
     }
 }

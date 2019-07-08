@@ -5,7 +5,7 @@ using UnityEngine;
 public class OnClickDrag : MonoBehaviour {
 
     bool mouseDown;
-    public GameObject GameObjSelf;
+    public GameObject SELF;
 
     void start()
     {
@@ -17,7 +17,7 @@ public class OnClickDrag : MonoBehaviour {
         if (Input.GetMouseButtonDown(0) == false)
         {
             mouseDown = false;
-            Destroy(GameObjSelf);
+            Destroy(SELF);
         }
     }
 
