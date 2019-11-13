@@ -1,4 +1,31 @@
-# tech-evolution
-This was created in Unity and is a simple puzzel game.
-I learnt how to use new systems within unity and improved my c# skills.
-I started this project since i was board but i really enjoyed the demo i made so i developed it more.
+# Tech Evolution
+
+**Tech Evolution** is a puzzle game around the development of electronic progression we have made and might make in the future.
+
+
+# How To Play:
+
+ - Left Click to select item
+ - Left Click (when you are holding a node) to merge with the node you are hovering over.
+
+## Why I Created Tech Evolution
+
+I created the demo of **Tech Evolution** by creating a very simple unity project with only 3 nodes. I started to like the game and slowly over the summer created the game. 
+
+## Development Process
+
+I created this project in Unity using C#.
+
+ - During the first week I created a simple demo to make sure I wanted to go ahead with the game.
+ - During the second week I implemented simple textures and created scripts that I could use again and again to make the game easy to scale up.
+ - During the third week I create the parallax scrolling background to get the game feeling and looking nicer I also added this effect to the clouds too. I also implemented a achievement system.
+ - During the fourth week I worked solely on the node artwork 
+ 
+ ## Future Plans
+ I'm planning to:
+ 
+ - Add more node to extend the gameplay
+ - Add a menu system
+ - Fix a bug where you can pick up multiple nodes 
+ - Add music
+ - Finish converting old achievements to new node artwork
