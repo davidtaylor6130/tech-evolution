@@ -1,6 +1,6 @@
 # Tech Evolution
 
-**Tech Evolution** is a puzzle game around the development of electronic progression we have made and might make in the future.
+**Tech Evolution** is a puzzle game around the development of electronic devices and how they are made.
 
 
 # How To Play:
@@ -19,7 +19,7 @@ I created this project in Unity using C#.
  - During the first week I created a simple demo to make sure I wanted to go ahead with the game.
  - During the second week I implemented simple textures and created scripts that I could use again and again to make the game easy to scale up.
  - During the third week I create the parallax scrolling background to get the game feeling and looking nicer I also added this effect to the clouds too. I also implemented a achievement system.
- - During the fourth week I worked solely on the node artwork 
+ - During the fourth week I worked solely on the node artwork. 
  
  ## Future Plans
  I'm planning to:
